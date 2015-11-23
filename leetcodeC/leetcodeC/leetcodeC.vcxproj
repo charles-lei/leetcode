@@ -143,8 +143,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AddDigits.c" />
+    <ClCompile Include="DeleteNode.c" />
     <ClCompile Include="mainTest.c" />
     <ClCompile Include="maxmumBinaryTree.c" />
+    <ClCompile Include="MoveZeroes.c" />
     <ClCompile Include="NimGame.c" />
   </ItemGroup>
   <ItemGroup>

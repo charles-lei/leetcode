@@ -27,6 +27,12 @@
     <ClCompile Include="mainTest.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="DeleteNode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveZeroes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcodeC.h">
