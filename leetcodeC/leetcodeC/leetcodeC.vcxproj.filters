@@ -39,6 +39,9 @@
     <ClCompile Include="InvertTree.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ValidAnagram.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcodeC.h">

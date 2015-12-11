@@ -150,6 +150,7 @@
     <ClCompile Include="MoveZeroes.c" />
     <ClCompile Include="NimGame.c" />
     <ClCompile Include="SameTree.c" />
+    <ClCompile Include="ValidAnagram.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcodeC.h" />
