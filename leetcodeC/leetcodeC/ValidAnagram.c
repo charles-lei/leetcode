@@ -10,27 +10,21 @@ You may assume the string contains only lowercase alphabets.*/
 #include "leetcodeC.h"
 bool isAnagram(char* s, char* t)
 {
-	unsigned int a[26];
-	unsigned int b[26];
+	unsigned int a[52] = {0};
 	int i = 0;
-	for (i = 0; i < 26; i++)
-	{
-		a[i] = 0;
-		b[i] = 0;
-	}
-	while (s != NULL && *s != '\0')
+	if (s == NULL && t == NULL) return true;
+	while (*s != '\0' &&  *t != '\0')
 	{
 		a[*s - 'a']++;
+		a[*s - 'a' + 26]++;
 		s++;
-	}
-	while (t != NULL && *t != '\0')
-	{
-		b[*t - 'a']++;
 		t++;
 	}
+	if (*s == '\0' &&  *t != '\0' || *s != '\0' &&  *t == '\0')
+		return false;
 	for (i = 0; i < 26; i++)
 	{
-		if (a[i] != b[i])
+		if (a[i] != a[i+26])
 		{
 			return false;
 		}
